@@ -34,6 +34,6 @@ This image sets the Docker CMD to execute gunicorn and bind to port 8000.
 
 The docker file contains a `gunicorn.conf` file that is set up so that
 one can tune gunicorn settings when running the container. Simply set
-any environment variable GUNICORN_[setting], where `setting` is any of
+any environment variable `GUNICORN_[setting]`, where `setting` is any of
 the parameters in [this
 list](http://docs.gunicorn.org/en/latest/settings.html)
